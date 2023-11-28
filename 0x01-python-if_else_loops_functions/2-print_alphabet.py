@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-
-import string
-
-output = string.ascii_lowercase
-print(output, end="")
+output = ""
+for i in range(97, 123):
+    output = output + chr(i)
+print("{}".format(output), end="")
